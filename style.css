@@ -6,8 +6,22 @@ body {
 }
 
 .container {
-  background: #fff;
+  /* background: #fff; */
   margin: 70px auto 0;
-  min-height: 500px;
-  width: 1200px;
+  /* min-height: 500px; */
+  width: 1280px;
+  /* flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .image-box {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
 }
